@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .grid-container{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+            gap:10px
+        }
+        .item{
+            padding: 10px;
+            font-size: calc(1.2rem+0.5vw);
+            background-color: #522b19;
+            color: #fff;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px #73fa05;
+        }
+        .item>button{
+            padding:10px;
+            margin-top:10px;
+            font-size: calc(1rem+1vw);
+            background-color: green;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script src="./index.js"></script>
+</body>
+</html>
